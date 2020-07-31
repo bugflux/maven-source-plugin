@@ -47,7 +47,7 @@
     <profile>
       <!-- IT fails on unix + JDK8, probably due to https://bugs.openjdk.java.net/browse/JDK-8177809 -->
       <activation>
-        <jdk>[8,9)</jdk>
+        <jdk>[1.8,9)</jdk>
         <os>
           <family>unix</family>
         </os>
